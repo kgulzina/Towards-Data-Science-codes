@@ -6,7 +6,7 @@ output: html_document
 ---
 
 First, inlude all required libraries. Note that we are using special package "rstan" - R implementation of Stan, which is used to sample from the distributions utilizing MCMC algorithms.
-```{r echo=TRUE}
+```{r, echo=TRUE}
 library(rstan)
 library(ggplot2)
 library(ilog)
